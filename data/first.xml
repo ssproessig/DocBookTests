@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="first" xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0">
+  <title>First chapter</title> 
+  <para>Dummy text.  Siehe auch im <link linkend="EN50128-2001">blah document</link>.<caution>
+      <title>asd</title>
+      <para>Achtungs text lkjadn jfdkasd flsadkfsad flasdfkjasd f</para>
+    </caution>
+  </para>
+</chapter>

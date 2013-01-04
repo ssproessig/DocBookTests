@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" version="5.0">
+   <info>
+      <title>Test</title>
+      <subtitle>Test Test</subtitle>
+      <authorgroup>
+         <author><personname>Sören Sprößig</personname></author>
+         <author><orgname>Bombardier Transportation</orgname></author>
+         <editor><personname>Blah Blub</personname></editor>
+      </authorgroup>
+      <copyright>
+         <year>2012</year>
+      </copyright>
+   </info>
+   <xi:include href="first.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+   <xi:include href="second.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+   <xi:include href="bib.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</book>

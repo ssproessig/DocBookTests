@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliography xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    <bibliodiv>
+        <title>Further reading</title>
+        <biblioentry xml:id="EN50128-2001">
+            <abbrev>EN50128-2001</abbrev>
+            <authorgroup>
+                <author><personname>Bloub</personname></author>
+            </authorgroup>
+            <biblioid class="isbn">10293-12-12</biblioid>
+        </biblioentry>
+    </bibliodiv>
+</bibliography>
