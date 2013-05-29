@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<book xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="b2_">
+    <info>
+        <title>Book 2</title>
+    </info>
+    <part>
+        <title>First Part</title>
+        <subtitle>Subtitle of First Part</subtitle>
+        <chapter>
+            <title>Sample content chapter</title>
+            <para>Some smaple content.</para>
+            <para>Don't forget to read the <olink targetdoc="b1" targetptr="b1_sect_important_info">important information</olink>!</para>
+        </chapter>
+    </part>
+</book>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE targetset SYSTEM "file://c:/Program Files (x86)/Oxygen XML Editor 14/frameworks/docbook/xsl/common/targetdatabase.dtd" [
+<!ENTITY b1targets SYSTEM "file:///Book1_targets.db">
+<!ENTITY b2targets SYSTEM "file:///Book2_targets.db">
+]>
+<targetset>
+    <targetsetinfo>
+        Sample target set information.
+    </targetsetinfo>    
+    <!-- Site map for generating relative paths between documents -->
+    <sitemap>
+        <dir name="documentation">
+            <dir name="book1">
+                <document targetdoc="b1_" baseuri="b1_.html">
+                    &b1targets;
+                </document>
+                <dir name="book2">
+                    <document targetdoc="b2_" baseuri="b2_.html">
+                        &b2targets;
+                    </document>
+            </dir>
+        </dir>
+    </sitemap>
+</targetset>
